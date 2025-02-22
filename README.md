@@ -22,8 +22,8 @@ Sebuah jaringan dapat terkoneksi satu sama lain jika dilakukan konfigurasi alama
 
 ## Static Routing
 Untuk terhubung dengan network yang tidak terkoneksi secara langsung (dalam kasus ini 2 router), harus dilakukan routing. Cara untuk melakukan static routing pada Cisco adalah dengan menambahkan alamat network tujuan, subnet mask, dan ip router ke-2 yang terhubung langsung dengan router ke-1.
-ip route [alamat network tujuan] [subnet mask] [ip router lain yang terhubung langsung]
-contoh command : Router(config)#ip route 192.168.3.0 255.255.255.0 192.168.1.2
+- ip route [alamat network tujuan] [subnet mask] [ip router lain yang terhubung langsung]
+- contoh command : Router(config)#ip route 192.168.3.0 255.255.255.0 192.168.1.2
 
 ![CodingStudio - Static Routing](https://github.com/user-attachments/assets/122e67aa-a94e-4129-a12e-4a1d57b54ff4)
 
