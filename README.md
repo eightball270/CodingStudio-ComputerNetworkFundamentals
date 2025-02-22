@@ -13,4 +13,4 @@ Topologi jaringan komputer memiliki 5 jenis, yaitu:
 4. Topologi Star
 5. Topologi Mesh
 
-<img height="851" width="1450" src="https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/master/CodingStudio%20-%20Static%20IP%20dan%20ICMP%20(Pinging).png">
+<img height="851" width="1450" src="https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/master/CodingStudio%20-%20Jenis-Jenis%20Topologi%20Jaringan.png">
