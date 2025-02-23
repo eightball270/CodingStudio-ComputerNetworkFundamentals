@@ -28,6 +28,6 @@ Dalam praktik ini menggunakan 2 buah router, router A terhubung network 192.168.
 ![CodingStudio - Static Routing](https://github.com/user-attachments/assets/122e67aa-a94e-4129-a12e-4a1d57b54ff4)
 
 ## Telnet dan SSH
-Untuk melakukan remote perangkat jaringan seperti router atau switch dari PC/Laptop, dapat dilakukan dengan 2 metode yaitu Telnet dan SSH. Telnet dan SSH adalah protokol jaringan yang digunakan untuk mengakses perangkat jarak jauh. Perbedaan keduanya adalah Telnet tidak menggunakan enkripsi data, sedangkan SSH menggunakan enkripsi data. SSH yang digunakan adalah SSH versi 2, dengan syarat rsa key minimal 768 bits, disini dilakukan konfigurasi generate rsa key sebesar 1024 bits.
+Untuk melakukan remote perangkat jaringan seperti router atau switch dari PC/Laptop, dapat dilakukan dengan 2 metode yaitu Telnet dan SSH. Telnet dan SSH adalah protokol jaringan yang digunakan untuk mengakses perangkat jarak jauh. Perbedaan keduanya adalah Telnet tidak menggunakan enkripsi data, sedangkan SSH menggunakan enkripsi data. Oleh karena itu, telnet cocok untuk jaringan private, sedangkan SSH cocok untuk jaringan publik. SSH yang digunakan adalah SSH versi 2, dengan syarat rsa key minimal 768 bits, disini dilakukan konfigurasi generate rsa key sebesar 1024 bits.
 
 ![CodingStudio - Telnet dan SSH](https://github.com/user-attachments/assets/c01b656c-235e-494e-96ff-339d4a96f845)
