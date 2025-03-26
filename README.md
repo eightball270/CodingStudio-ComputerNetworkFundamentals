@@ -1,33 +1,33 @@
 # CodingStudio-ComputerNetworkFundamentals
-Materi tentang Fundamental Jaringan Komputer dari CodingStudio yang telah dipelajari:
-1. Jenis-Jenis Topologi Jaringan
-2. Static IP Address dan Ping (ICMP)
+Lessons on Computer Network Fundamentals from CodingStudio that have been learned:
+1. Types of Network Topology
+2. Static IP Address and Ping (ICMP)
 3. Static Routing
-4. Telnet dan SSH
+4. Telnet and SSH
 
-## Jenis-Jenis Topologi Jaringan
-Topologi jaringan komputer memiliki 5 jenis, yaitu:
-1. Topologi Bus
-2. Topologi Ring
-3. Topologi Tree
-4. Topologi Star
-5. Topologi Mesh
+## Types of Network Topology
+Computer network topology has 5 types, such as:
+1. Bus topology
+2. Ring topology
+3. Tree topology
+4. Star topology
+5. Mesh Topology
 
 ![CodingStudio - Jenis-Jenis Topologi Jaringan](https://github.com/user-attachments/assets/7536e634-8e16-400b-84f6-e859251a0f2e)
 
-## Static IP Address dan Ping (ICMP)
-Sebuah jaringan dapat terkoneksi satu sama lain jika dilakukan konfigurasi alamat IP secara static pada masing-masing perangkat jaringan, kemudian lakukan ping untuk memastikan satu perangkat terhubung ke perangkat lainnya.
+## Static IP Address and Ping (ICMP)
+A network can be connected to each other if a static IP address is configured on each network device, then ping to make sure one device is connected to other devices.
 
 ![CodingStudio - Static IP dan ICMP (Pinging)](https://github.com/user-attachments/assets/065238e0-1a3b-46e7-811b-2377bf828bce)
 
 ## Static Routing
-Dalam praktik ini menggunakan 2 buah router, router A terhubung network 192.168.2.0/24, router B terhubung network 192.168.3.0/24, dan network antar router 192.168.1.0/24. Agar network 192.168.2.0 terjangkau ke network 192.168.3.0 harus dilakukan konfigurasi routing untuk meneruskan trafik ke network lain. Metode yang digunakan adalah static routing, yaitu membuat routing table secara manual. Cara untuk melakukan static routing pada router A adalah dengan menambahkan alamat network tujuan (network address dan subnet mask) dan ip interface router B yang terhubung langsung dengan router A.
-- ip route [alamat network tujuan] [subnet mask] [ip router lain yang terhubung langsung]
-- contoh command : RouterA(config)#ip route 192.168.3.0 255.255.255.0 192.168.1.2
+In this practice using 2 routers, router A is connected to network 192.168.2.0/24, router B is connected to network 192.168.3.0/24, and the network between routers is 192.168.1.0/24. In order for network 192.168.2.0 to reach network 192.168.3.0, a routing configuration must be made to forward traffic to another network. The method used is static routing, which is to create a routing table manually. The way to do static routing on router A is to add the destination network address (network address and subnet mask) and ip interface of router B which is directly connected to router A.
+- ip route [destination network address] [subnet mask] [ip of another router that is directly connected]
+- example command: RouterA(config)#ip route 192.168.3.0 255.255.255.0 192.168.1.2
 
 ![CodingStudio - Static Routing](https://github.com/user-attachments/assets/122e67aa-a94e-4129-a12e-4a1d57b54ff4)
 
-## Telnet dan SSH
-Untuk melakukan remote perangkat jaringan seperti router atau switch dari PC/Laptop, dapat dilakukan dengan 2 metode yaitu Telnet dan SSH. Telnet dan SSH adalah protokol jaringan yang digunakan untuk mengakses perangkat jarak jauh. Perbedaan keduanya adalah Telnet tidak menggunakan enkripsi data, sedangkan SSH menggunakan enkripsi data. Oleh karena itu, telnet cocok untuk jaringan private, sedangkan SSH cocok untuk jaringan publik. SSH yang digunakan adalah SSH versi 2, dengan syarat rsa key minimal 768 bits, disini dilakukan konfigurasi generate rsa key sebesar 1024 bits. Agar dapat melakukan remote terhadap perangkat switch, konfigurasikan interface vlan1 dengan menghidupkan dan menambahkan alamat ip-nya, kemudian lakukan konfigurasi Telnet atau SSH seperti halnya konfigurasi di router.
+## Telnet and SSH
+To remote a network device such as a router or switch from a PC/Laptop, it can be done using 2 methods, which are Telnet and SSH. Telnet and SSH are network protocols used to access remote devices. The difference between the two is that Telnet does not use data encryption, while SSH uses data encryption. Therefore, telnet is suitable for private networks, while SSH is suitable for public networks. The SSH used is SSH version 2, with a minimum rsa key requirement of 768 bits, here a configuration is made to generate an rsa key of 1024 bits. In order to be able to remote the switch device, configure the vlan1 interface by turning on and adding its ip address, then configure Telnet or SSH as well as the configuration on the router.
 
 ![CodingStudio - Telnet dan SSH](https://github.com/user-attachments/assets/c01b656c-235e-494e-96ff-339d4a96f845)
