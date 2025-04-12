@@ -15,6 +15,8 @@ Computer network topology has 5 types, such as:
 
 ![CodingStudio - Jenis-Jenis Topologi Jaringan](https://github.com/user-attachments/assets/7536e634-8e16-400b-84f6-e859251a0f2e)
 
+![CodingStudio - Jenis-Jenis Topologi Jaringan](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/CodingStudio%20-%20Jenis-Jenis%20Topologi%20Jaringan.png)
+
 ## Static IP Address and Ping (ICMP)
 A network can be connected to each other if a static IP address is configured on each network device, then ping to make sure one device is connected to other devices.
 
