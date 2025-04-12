@@ -41,4 +41,4 @@ To remote a network device such as a router or switch from a PC/Laptop, it can b
 [Project Link](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/CodingStudio%20-%20Telnet%20dan%20SSH.pkt)
 
 ## Attachment
-[Course Certificates](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/CodingStudio%20-%20Certificates.pdf)
+[Course Certificates (PDF)](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/CodingStudio%20-%20Certificates.pdf)
