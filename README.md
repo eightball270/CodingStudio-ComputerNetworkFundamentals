@@ -5,6 +5,9 @@ Lessons on Computer Network Fundamentals from **Coding Studio** that have been l
 3. Static Routing
 4. Telnet and SSH
 
+## Technology Used
+- Cisco Packet Tracer
+
 ## Types of Network Topology
 Computer network topology has 5 types, such as:
 1. Bus topology
