@@ -13,7 +13,7 @@ Computer network topology has 5 types, such as:
 4. Star topology
 5. Mesh Topology
 
-![CodingStudio - Jenis-Jenis Topologi Jaringan](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/CodingStudio%20-%20Jenis-Jenis%20Topologi%20Jaringan.png)
+![CodingStudio - Jenis-Jenis Topologi Jaringan]()
 
 [Project File Link](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/CodingStudio%20-%20Jenis-Jenis%20Topologi%20Jaringan.pkt)
 
