@@ -18,14 +18,14 @@ There are 5 types of computer network topologies, such as:
 
 ![Coding Studio - Types of Network Topology.png](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Types%20of%20Network%20Topology.png)
 
-[Project File Link (Packet Tracer Files)](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Types%20of%20Network%20Topology.pkt)
+[Project File Link](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Types%20of%20Network%20Topology.pkt)
 
 ## Static IP Address and Ping (ICMP)
 A network can be established if a static IP address is configured on each device. Then, use the **ping** command to ensure that each device is connected to the others.
 
 ![Coding Studio - Static IP and ICMP (Pinging).png](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Static%20IP%20and%20ICMP%20(Pinging).png)
 
-[Project File Link (Packet Tracer Files)](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Static%20IP%20and%20ICMP%20(Pinging).pkt)
+[Project File Link](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Static%20IP%20and%20ICMP%20(Pinging).pkt)
 
 ## Static Routing
 In this simulation, two routers are used: Router A is connected to the 192.168.2.0/24 network, and Router B is connected to the 192.168.3.0/24 network. The network between the two routers is 192.168.1.0/24. For the 192.168.2.0 network to reach the 192.168.3.0 network, a routing configuration is required to forward traffic between networks. The method used is **static routing**, which involves manually creating a routing table. To configure static routing on Router A, you must add the destination network address (including the network address and subnet mask) along with the IP address of Router B’s interface that is directly connected to Router A.
@@ -34,7 +34,7 @@ In this simulation, two routers are used: Router A is connected to the 192.168.2
 
 ![Coding Studio - Static Routing.png](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Static%20Routing.png)
 
-[Project File Link (Packet Tracer Files)](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Static%20Routing.pkt)
+[Project File Link](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Static%20Routing.pkt)
 
 ## Telnet and SSH
 To remotely access a network device such as a router or switch from a PC or laptop, there are two methods: Telnet and SSH. Both are network protocols used to access remote devices, but they differ in security. Telnet doesn't use data encryption, while SSH does. Therefore, Telnet is more suitable for private networks, whereas SSH is recommended for public networks.
@@ -43,7 +43,7 @@ In this simulation, SSH version 2 is used, which requires a minimum RSA key size
 
 ![Coding Studio - Telnet and SSH.png](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Telnet%20and%20SSH.png)
 
-[Project File Link (Packet Tracer Files)](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Telnet%20and%20SSH.pkt)
+[Project File Link](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Telnet%20and%20SSH.pkt)
 
 ## Attachment
 [Course Certificates (PDF)](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Certificates.pdf)
