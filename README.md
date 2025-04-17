@@ -9,7 +9,7 @@ Lessons learned on Computer Network Fundamentals from **Coding Studio**:
 - Cisco Packet Tracer
 
 ## Types of Network Topology
-Computer network topology has 5 types, such as:
+There are 5 types of computer network topologies, such as:
 1. Bus topology
 2. Ring topology
 3. Tree topology
@@ -28,7 +28,7 @@ A network can be established if a static IP address is configured on each device
 [Project File Link](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Static%20IP%20and%20ICMP%20(Pinging).pkt)
 
 ## Static Routing
-In this simulation, two routers are used: Router A is connected to the 192.168.2.0/24 network, and Router B is connected to the 192.168.3.0/24 network. The network between the two routers is 192.168.1.0/24. For the 192.168.2.0 network to reach the 192.168.3.0 network, a routing configuration is required to forward traffic between networks. The method used is static routing, which involves manually creating a routing table. To configure static routing on Router A, you must add the destination network address (including the network address and subnet mask) along with the IP address of Router B’s interface that is directly connected to Router A.
+In this simulation, two routers are used: Router A is connected to the 192.168.2.0/24 network, and Router B is connected to the 192.168.3.0/24 network. The network between the two routers is 192.168.1.0/24. For the 192.168.2.0 network to reach the 192.168.3.0 network, a routing configuration is required to forward traffic between networks. The method used is **static routing**, which involves manually creating a routing table. To configure static routing on Router A, you must add the destination network address (including the network address and subnet mask) along with the IP address of Router B’s interface that is directly connected to Router A.
 - ip route [destination network address] [subnet mask] [gateway/ip of another router that is directly connected]
 - example command: RouterA(config)#ip route 192.168.3.0 255.255.255.0 192.168.1.2
 
