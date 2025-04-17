@@ -1,5 +1,5 @@
 # Coding Studio - Computer Network Fundamentals
-Lessons on Computer Network Fundamentals from **Coding Studio** that have been learned:
+Lessons learned on Computer Network Fundamentals from **Coding Studio**:
 1. Types of Network Topology
 2. Static IP Address and Ping (ICMP)
 3. Static Routing
@@ -21,14 +21,14 @@ Computer network topology has 5 types, such as:
 [Project File Link](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Types%20of%20Network%20Topology.pkt)
 
 ## Static IP Address and Ping (ICMP)
-A network can be connected to each other if a static IP address is configured on each network device, then ping to make sure one device is connected to other devices.
+A network can be established if a static IP address is configured on each device. Then, use the **ping** command to ensure that each device is connected to the others.
 
 ![Coding Studio - Static IP and ICMP (Pinging).png](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Static%20IP%20and%20ICMP%20(Pinging).png)
 
 [Project File Link](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Static%20IP%20and%20ICMP%20(Pinging).pkt)
 
 ## Static Routing
-In this simulation using 2 routers, router A is connected to network 192.168.2.0/24, router B is connected to network 192.168.3.0/24, and the network between routers is 192.168.1.0/24. In order for network 192.168.2.0 to reach network 192.168.3.0, a routing configuration must be made to forward traffic to another network. The method used is static routing, which is to create a routing table manually. The way to do static routing on router A is to add the destination network address (network address and subnet mask) and ip interface of router B which is directly connected to router A.
+In this simulation, two routers are used: Router A is connected to the 192.168.2.0/24 network, and Router B is connected to the 192.168.3.0/24 network. The network between the two routers is 192.168.1.0/24. For the 192.168.2.0 network to reach the 192.168.3.0 network, a routing configuration is required to forward traffic between networks. The method used is static routing, which involves manually creating a routing table. To configure static routing on Router A, you must add the destination network address (including the network address and subnet mask) along with the IP address of Router B’s interface that is directly connected to Router A.
 - ip route [destination network address] [subnet mask] [gateway/ip of another router that is directly connected]
 - example command: RouterA(config)#ip route 192.168.3.0 255.255.255.0 192.168.1.2
 
@@ -37,7 +37,9 @@ In this simulation using 2 routers, router A is connected to network 192.168.2.0
 [Project File Link](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Static%20Routing.pkt)
 
 ## Telnet and SSH
-To remote a network device such as a router or switch from a PC/Laptop, it can be done using 2 methods, which are Telnet and SSH. Telnet and SSH are network protocols used to access remote devices. The difference between the two is that Telnet does not use data encryption, while SSH uses data encryption. Therefore, telnet is suitable for private networks, while SSH is suitable for public networks. The SSH used is SSH version 2, with a minimum rsa key requirement of 768 bits, here a configuration is made to generate an rsa key of 1024 bits. In order to be able to remote the switch device, configure the vlan1 interface by turning on and adding its ip address, then configure Telnet or SSH as well as the configuration on the router.
+To remotely access a network device such as a router or switch from a PC or laptop, there are two methods: Telnet and SSH. Both are network protocols used to access remote devices, but they differ in security. Telnet doesn't use data encryption, while SSH does. Therefore, Telnet is more suitable for private networks, whereas SSH is recommended for public networks.
+
+In this simulation, SSH version 2 is used, which requires a minimum RSA key size of 768 bits. Here, a 1024-bit RSA key is generated for better security. To enable remote access to the switch, the **Vlan1** interface must be configured by enabling it and assigning it an IP address. Then, configure either Telnet or SSH, just like the configuration on the router.
 
 ![Coding Studio - Telnet and SSH.png](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Telnet%20and%20SSH.png)
 
