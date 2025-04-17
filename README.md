@@ -28,8 +28,8 @@ A network can be connected to each other if a static IP address is configured on
 [Project File Link](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Static%20IP%20and%20ICMP%20(Pinging).pkt)
 
 ## Static Routing
-In this practice using 2 routers, router A is connected to network 192.168.2.0/24, router B is connected to network 192.168.3.0/24, and the network between routers is 192.168.1.0/24. In order for network 192.168.2.0 to reach network 192.168.3.0, a routing configuration must be made to forward traffic to another network. The method used is static routing, which is to create a routing table manually. The way to do static routing on router A is to add the destination network address (network address and subnet mask) and ip interface of router B which is directly connected to router A.
-- ip route [destination network address] [subnet mask] [ip of another router that is directly connected]
+In this simulation using 2 routers, router A is connected to network 192.168.2.0/24, router B is connected to network 192.168.3.0/24, and the network between routers is 192.168.1.0/24. In order for network 192.168.2.0 to reach network 192.168.3.0, a routing configuration must be made to forward traffic to another network. The method used is static routing, which is to create a routing table manually. The way to do static routing on router A is to add the destination network address (network address and subnet mask) and ip interface of router B which is directly connected to router A.
+- ip route [destination network address] [subnet mask] [gateway/ip of another router that is directly connected]
 - example command: RouterA(config)#ip route 192.168.3.0 255.255.255.0 192.168.1.2
 
 ![Coding Studio - Static Routing.png](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Static%20Routing.png)
