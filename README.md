@@ -1,4 +1,4 @@
-# Coding Studio - Computer Network Fundamentalss
+# Coding Studio - Computer Network Fundamentals
 Lessons learned on Computer Network Fundamentals from **Coding Studio**:
 1. Types of Network Topology
 2. Static IP Address and Ping (ICMP)
