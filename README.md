@@ -28,9 +28,10 @@ A network can be established if a static IP address is configured on each device
 [Project File Link](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Static%20IP%20and%20ICMP%20(Pinging).pkt)
 
 ## Static Routing
-In this simulation involving two routers, Router A is connected to the 192.168.2.0/24 network, Router B is connected to the 192.168.3.0/24 network, and the network between the routers is 192.168.1.0/24. To enable communication between the 192.168.2.0 and 192.168.3.0 networks, a routing configuration is required to forward traffic between networks. The method applied is **static routing**, which involves manually creating a routing table. Static routing on Router A is configured by adding the destination network address (including the network address and subnet mask) along with the IP address of Router B’s interface that is directly connected to Router A.
-- ip route [destination network address] [subnet mask] [gateway/ip of another router that is directly connected]
-- example command: RouterA(config)#ip route 192.168.3.0 255.255.255.0 192.168.1.2
+In this simulation involving two routers, Router A is connected to the 192.168.2.0/24 network, Router B is connected to the 192.168.3.0/24 network, and the network between the routers is 192.168.1.0/24. To enable communication between the 192.168.2.0 and 192.168.3.0 networks, a routing configuration is required to forward traffic between networks. The method applied is **static routing**, which involves manually creating a routing table. Static routing on Router A is configured by adding the destination network address (including the network address and subnet mask) along with the IP address of Router B’s interface that is directly connected to Router A.  
+`ip route [destination network address] [subnet mask] [gateway/ip of another router that is directly connected]`  
+example command:  
+`RouterA(config)#ip route 192.168.3.0 255.255.255.0 192.168.1.2`  
 
 ![Coding Studio - Static Routing.png](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals/blob/main/Coding%20Studio%20-%20Static%20Routing.png)
 
