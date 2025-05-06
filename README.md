@@ -5,7 +5,7 @@ Lessons learned on Computer Network Fundamentals from **Coding Studio**:
 3. Static Routing
 4. Telnet and SSH
 
-## Technology Used
+## Simulator Used
 - Cisco Packet Tracer
 
 ## Types of Network Topology
